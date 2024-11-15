@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #fefefe;
+  background-image: url(images/background.jpg);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,9 +18,14 @@ body {
 
 button {
   cursor: pointer;
-  font-size: 14px;
+  height: 50px;
+  width: 160px;
+  font-size: 18px;
   border-radius: 4px;
   padding: 5px 15px;
+  background-color: #00a01b;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 select {
@@ -48,7 +54,7 @@ button:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #6026ff;
+  background-color: #b342ff;
   height: 70px;
   color: #ffffff;
   display: flex;
@@ -70,9 +76,9 @@ button:focus {
 }
 
 .container {
-  background-color: #6026ff;
+  background-color: #b342ff;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   color: #ffffff;
   position: relative;
@@ -94,13 +100,14 @@ h2 {
 h1 {
   margin: 0;
   padding: 10px;
-  color: #ffde17;
+  color: #fbff03;
 }
+
 
 input {
   border: 0;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 18px;
   width: 300px;
   padding: 12px 20px;
   margin-top: 7px;
@@ -116,10 +123,12 @@ input {
   position: absolute;
   top: 70px;
   left: 20px;
+  font-size: 16px;
 }
 
 .end-game-container {
-  background-color: inherit;
+  background-color: #ac0000e0;
+  font-size: 20px;
   display: none;
   align-items: center;
   justify-content: center;
